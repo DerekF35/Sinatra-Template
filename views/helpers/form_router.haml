@@ -1,0 +1,10 @@
+- current ||= ""
+- case data_type
+- when "BOOLEAN"
+  =haml :"helpers/yes_no" , :locals => {:name => name, :current => current}
+- when "DROPDOWN"
+  =haml :"helpers/dropdown" , :locals => {:name => name , :group => group  , :current => current}
+- when "TEXT"
+  =haml :"helpers/text" , :locals => {:name => name , :current => current }
+- when "SELECT"
+  =haml :"helpers/select_box" , :locals => {:name => name , :options => options ,  :current => current}

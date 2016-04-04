@@ -1,0 +1,7 @@
+.buildpath
+.project
+.sass-cache/*
+*.log
+Gemfile.lock
+*.lock
+

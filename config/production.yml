@@ -1,0 +1,4 @@
+protected:
+  enable_auth: true
+  username: "admin"
+  password: "password"

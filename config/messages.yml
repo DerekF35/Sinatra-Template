@@ -1,0 +1,15 @@
+action-success:
+  level: "success"
+  message: "The action completed successfully"
+action-failure:
+  level: "failure"
+  message: "The action request has failed"
+update-success:
+  level: "success"
+  message: "The update has been completed successfully!"
+update-none:
+  level: "warning"
+  message: "No update was needed."
+invalid-code:
+  level: "failure"
+  message: "Invalid code.  Please try again."

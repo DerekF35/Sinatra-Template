@@ -1,0 +1,10 @@
+- if !@message.nil? && !@message["message"].nil?
+  - case @message["level"]
+    - when "success"
+      .cst-alert-success{ :role => "alert" }= @message["message"]
+    - when "failure"
+      .cst-alert-failure{ :role => "alert" }= @message["message"]
+    - when "warning"
+      .cst-alert-warning{ :role => "alert" }= @message["message"]
+    - else
+      .cst-alert-info{ :role => "alert" }= @message["message"]

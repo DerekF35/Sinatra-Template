@@ -1,0 +1,24 @@
+.cst-alert{ 
+    @extend .alert;
+    width: 100%;
+ }
+ 
+ .cst-alert-success{
+    @extend .cst-alert;
+    @extend .alert-success;
+ }
+ 
+  .cst-alert-info{
+    @extend .cst-alert;
+    @extend .alert-info;
+ }
+ 
+  .cst-alert-failure{
+    @extend .cst-alert;
+    @extend .alert-danger;
+ }
+ 
+  .cst-alert-warning{
+    @extend .cst-alert;
+    @extend .alert-warning;
+ }

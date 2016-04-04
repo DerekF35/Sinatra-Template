@@ -1,0 +1,27 @@
+@import "base";
+
+// Set styles only used on this site, or in this section, if you want different
+// CSS files for each section.
+
+@import "bootstrap";
+@import "bootstrap/theme";
+@import "alerts";
+@import 'bootstrap/glyphicons';
+@import "bootstrap3-switch";
+
+@font-face{
+  font-family:'Glyphicons Halflings';
+  src: image-url("/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: image-url("/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+       image-url("/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"),
+       image-url("/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"),
+       image-url("/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
+}
+// #########
+// VARIABLES
+// #########
+
+
+// #########
+// COMMON
+// #########

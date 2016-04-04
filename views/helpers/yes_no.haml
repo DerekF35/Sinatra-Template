@@ -1,0 +1,6 @@
+=#haml :"helpers/select_box" , :locals => {:name => name  , :options => { "Yes" => "TRUE" , "No" => "FALSE"} , :current => current.to_s.upcase }
+:javascript
+  $(document).ready( function() {
+    $("[name='#{name}']").bootstrapSwitch();
+  });
+%input{ :type => "checkbox" , :name=> name , :checked => ( current.to_s.upcase  == "TRUE" ) , :"data-on-text" => "Yes", :"data-off-text" => "No"  , :"data-off-color"=>"danger" , :"data-on-color"=>"success"}

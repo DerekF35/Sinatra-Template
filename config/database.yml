@@ -1,0 +1,16 @@
+development: &development
+    adapter: "mysql2"
+    host: ""
+    username: ""
+    password: ""
+    pool: 5
+    reaping_frequency: 300
+    database: ""
+production: &production
+    adapter: "mysql2"
+    host: ""
+    username: ""
+    password: ""
+    pool: 5
+    reaping_frequency: 300
+    database: ""

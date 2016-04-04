@@ -1,0 +1,6 @@
+- blank ||= true
+%select.form-control{ :name => name , :id => name }
+  - if blank
+    %option{ :value => "" }
+  - options.each do |txt,val|
+    %option{ :value => val , :selected => (val == current ) }= txt
