@@ -1,6 +1,6 @@
 source 'https://rubygems.org/'
 gem 'passenger'
-gem 'rack', '1.5.2'
+gem "rack", ">= 1.6.11"
 gem "bootstrap-sass"
 gem "compass"
 gem "sinatra"
